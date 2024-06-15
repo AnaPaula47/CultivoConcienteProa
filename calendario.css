@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+table.harvest-calendar {
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 1000px;
+}
+
+
+table.harvest-calendar th,
+table.harvest-calendar td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+table.harvest-calendar th {
+    background-color: #333;
+    color: white;
+}
+
+
+table.harvest-calendar td {
+    background-color: #fff;
+}
+
+
+/* Estilos de temporada */
+table.harvest-calendar td:nth-child(2),
+table.harvest-calendar th:nth-child(2) {
+    background-color: #7FBF50;
+}
+
+
+table.harvest-calendar td:nth-child(3),
+table.harvest-calendar th:nth-child(3) {
+    background-color: #F2BF22;
+}
+
+
+table.harvest-calendar td:nth-child(4),
+table.harvest-calendar th:nth-child(4) {
+    background-color: #F29727;
+}
+
+
+table.harvest-calendar td:nth-child(5),
+table.harvest-calendar th:nth-child(5) {
+    background-color:#4A96D9;
+}
