@@ -2,11 +2,42 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendario de Cosechas</title>
+    <title>Menú Lateral con CSS</title>
     <link rel="stylesheet" href="calendario.css">
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <div class="btn-menu">
+                <label for="btn-menu">☰</label>
+            </div>
+            <div class="logo">
+                <h1>CultivoConcienteProa</h1>
+            </div>
+            <nav class="menu">
+                <a href="#">Inicio</a>
+                <a href="#">Nosotros</a>
+                 <a href="catalogo.html">Catálogo</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <div class="capa"></div>
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <a href="#">Portafolio</a>
+                <a href="calendario.html">Calendario</a>
+                <a href="#">Suscribirse</a>
+                <a href="#">Facebook</a>
+                <a href="#">YouTube</a>
+                <a href="#">Instagram</a>
+            </nav>
+            <label for="btn-menu">✖️</label>
+        </div>
+    </div>  
+
     <h1>Calendario de Cosechas</h1>
     <table class="harvest-calendar">
         <thead>
@@ -18,10 +49,9 @@
                 <th>Invierno</th>
             </tr>   
         </thead>
-
         <tbody>
             <tr>
-                <td>Enero</td>
+            <td>Enero</td>
                 <td>
                     <img src="img/albahaca.png" alt="">
                    <img src="img/berenjena.png" alt="">
@@ -49,11 +79,13 @@
                    <img src="img/calabaza.png" alt="">
                 </td>
                 <td>
+                    <img src="img/siembra.png" alt="">
                     <img src="img/acelga.png" alt="">
                     <img src="img/chicharo-verde.png" alt="">
                     <img src="img/calabaza.png" alt="">
                 </td>
                 <td>
+                    <img src="img/siembra.png" alt="">
                     <img src="img/acelga.png" alt="">
                     <img src="img/chicharo-verde.png" alt="">
                     <img src="img/calabaza.png" alt="">
@@ -387,7 +419,9 @@
                          <img src="img/zanahoria.png" alt="">
                 </td>
             </tr>
-        </tbody>
-    </table>
+
+    </tbody>
+</table>
+</article>
 </body>
 </html>
